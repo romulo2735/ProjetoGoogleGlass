@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Google Glass</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" href="css/specs.css">
+    <script src="js/funcoes.js"></script>
+</head>
+<body>
+<div id="interface">
+    <!-- ###### Incio do cabeçalho	###### -->
+    <header id="cabecalho">
+        <hgroup>
+            <h1>Google Glass</h1>
+            <h2>A revolução do Google está chegando</h2>
+        </hgroup>
+        <img id="icone" src="img/glass-oculos-preto-peq.png">
+        <nav id="menu">
+            <h1>Menu Principal</h1>
+            <ul type="square">
+                <li onmouseover="mudaFoto('img/home.png')" onmouseout="mudaFoto('img/especificacoes.png')"><a href="index.html">Home</a></li>
+                <li onmouseover="mudaFoto('img/especificacoes.png')" onmouseout="mudaFoto('img/especificacoes.png')"><a href="specs.html">Especificações</a></li>
+                <li onmouseover="mudaFoto('img/fotos.png')" onmouseout="mudaFoto('img/especificacoes.png')"><a href="fotos.html">Fotos</a></li>
+                <li onmouseover="mudaFoto('img/multimidia.png')" onmouseout="mudaFoto('img/especificacoes.png')"><a href="multimidia.html">Multimídia</a></li>
+                <li onmouseover="mudaFoto('img/contato.png')" onmouseout="mudaFoto('img/especificacoes.png')"><a href="fale_conosco.html">Fale conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="corpo-full">
+        <article id="noticia-principal">
+            <header id="cabecalho-artigo">
+                <hgroup>
+                    <h3>Glass > Especificações</h3>
+                    <h1>Raio-X no Google Glass</h1>
+                    <h2>por Rômulo Sousa</h2>
+                    <h3>Atualizado em 10/Abril/2013</h3>
+                </hgroup>
+            </header>
+            <p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass.
+                Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.
+            </p>
+            <section id="conteudo">
+                <img src="img/glass-esquema-marcado.jpg" usemap="#meumapa" alt="">
+                <map name="meumapa">
+                    <area shape="rect" coords="179,202,270,260" href="google_glass.html#tela" target="janela" alt="">
+                    <area shape="circle" coords="158,243,12" href="google_glass.html#camera" target="janela" alt="">
+                    <area shape="circle" coords="77,52,12" href="google_glass.html#gadgets" target="janela" alt="">
+                    <area shape="poly" coords="28,143,83,216,84,249,27,169" href="google_glass.html#sensores" target="janela" alt="">
+                </map>
+                <iframe src="google_glass.html" name="janela" id="frame-spec"></iframe>
+            </section>
+        </article>
+    </section>
+
+
+
+    <footer id="rodape">
+        <p>@ Copyright 2017 - Rômulo Sousa <br>
+            <a href="https://www.facebook.com/romulo.sousa.395" target="_blank">Facebook</a> |
+            <a href="https://github.com/romulosousa27" target="_blank">Github</a></p>
+    </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Google Glass</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css"/>   
+    <script src="js/funcoes.js"></script>
+</head>
+<body>
+<div id="interface">
+    <!-- ###### Incio do cabeçalho	###### -->
+    <header id="cabecalho">
+        <hgroup>
+            <h1>Google Glass</h1>
+            <h2>A revolução do Google está chegando</h2>
+        </hgroup>
+        <img id="icone" src="img/glass-oculos-preto-peq.png">
+        <nav id="menu">
+            <h1>Menu Principal</h1>
+            <ul type="square">
+                <li onmouseover="mudaFoto('img/home.png')" onmouseout="mudaFoto('img/multimidia.png')"><a href="index.html">Home</a></li>
+                <li onmouseover="mudaFoto('img/especificacoes.png')" onmouseout="mudaFoto('img/multimidia.png')"><a href="specs.html">Especificações</a></li>
+                <li onmouseover="mudaFoto('img/fotos.png')" onmouseout="mudaFoto('img/multimidia.png')"><a href="fotos.html">Fotos</a></li>
+                <li onmouseover="mudaFoto('img/multimidia.png')" onmouseout="mudaFoto('img/multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
+                <li onmouseover="mudaFoto('img/contato.png')" onmouseout="mudaFoto('img/glassmultimidia.png')"><a href="fale_conosco.html">Fale conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="corpo-full">   
+        <article id="noticia-principal">
+            <header id="cabecalho-artigo">
+                <hgroup>
+                    <h3>Glass > Multimidia</h3>
+                    <h1>Sons e videos</h1>
+                    <h2>por Rômulo Sousa</h2>
+                    <h3>Atualizado em 10/Abril/2013</h3>
+                </hgroup>
+            </header>
+
+            <div id="tv-radio">
+                <audio id="musica" controls="controls">
+                    <source src="media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg"/>
+                    Desculpe, o audio não fio possivel reproduzir
+                </audio>
+                    <!--                
+                        <video id="filme" controls="controls" poster="img/video-mini03.jpg">
+                            <source src="media/getting-started.mp4" type="video/mp4"/>
+                            Desculpe, o video não fio possivel reproduzir
+                        </video>
+                    -->
+                <iframe width="630" height="340" src="https://www.youtube.com/embed/4EvNxWhskf8?rel=0&amp;controls=0&amp;showinfo=0?ecver=1" frameborder="0" allowfullscreen></iframe>
+            </div>
+     
+        </article>
+    </section>
+
+    <footer id="rodape">
+    <p>@ Copyright 2017 - Rômulo Sousa <br>
+        <a href="https://www.facebook.com/romulo.sousa.395" target="_blank">Facebook</a> |
+        <a href="https://github.com/romulosousa27" target="_blank">Github</a></p>
+</footer>
+</div>
+</body>
+</html>
